@@ -1,0 +1,116 @@
+Traceback (most recent call last):
+  File "C:\Users\rizbr\Desktop\코딩\beta.py", line 176, in login_to_spath
+    if "login.do" not in driver.current_url:
+                         ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rizbr\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 556, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rizbr\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rizbr\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=148.0.7778.179); For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xfab593+105d3]
+	chromedriver!GetHandleVerifier [0xfab6c4+10704]
+	chromedriver!(No symbol) [0xdb1ea0]
+	chromedriver!(No symbol) [0xda0dbe]
+	chromedriver!(No symbol) [0xdbf98e]
+	chromedriver!(No symbol) [0xe23cdc]
+	chromedriver!(No symbol) [0xe3a2a9]
+	chromedriver!(No symbol) [0xe1d516]
+	chromedriver!(No symbol) [0xdf08e9]
+	chromedriver!(No symbol) [0xdf16a4]
+	chromedriver!GetHandleVerifier [0x1233014+298054]
+	chromedriver!GetHandleVerifier [0x122e603+293643]
+	chromedriver!GetHandleVerifier [0x124ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xfc54e8+2a528]
+	chromedriver!GetHandleVerifier [0xfccd1d+31d5d]
+	chromedriver!GetHandleVerifier [0xfb3e68+18ea8]
+	chromedriver!GetHandleVerifier [0xfb4015+19055]
+	chromedriver!GetHandleVerifier [0xf9d65f+269f]
+	KERNEL32!BaseThreadInitThunk [0x75155d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7755d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7755d7c1+231]
+
+
+==================================================
+Traceback (most recent call last):
+  File "C:\Users\rizbr\Desktop\코딩\beta.py", line 212, in login_to_spath
+    if "smartid.ssu.ac.kr" in driver.current_url or "login.do" in driver.current_url:
+                              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rizbr\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 556, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rizbr\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rizbr\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xfab593+105d3]
+	chromedriver!GetHandleVerifier [0xfab6c4+10704]
+	chromedriver!(No symbol) [0xdb1cde]
+	chromedriver!(No symbol) [0xdefb77]
+	chromedriver!(No symbol) [0xe1d636]
+	chromedriver!(No symbol) [0xe18861]
+	chromedriver!(No symbol) [0xe18241]
+	chromedriver!(No symbol) [0xd8502e]
+	chromedriver!(No symbol) [0xd855ce]
+	chromedriver!(No symbol) [0xd85aad]
+	chromedriver!GetHandleVerifier [0x1233014+298054]
+	chromedriver!GetHandleVerifier [0x122e603+293643]
+	chromedriver!GetHandleVerifier [0x124ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xfc54e8+2a528]
+	chromedriver!GetHandleVerifier [0xfccd1d+31d5d]
+	chromedriver!(No symbol) [0xd84ba6]
+	chromedriver!(No symbol) [0xd841e0]
+	chromedriver!GetHandleVerifier [0x13987af+3fd7ef]
+	KERNEL32!BaseThreadInitThunk [0x75155d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7755d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7755d7c1+231]
+
+
+==================================================
+Traceback (most recent call last):
+  File "C:\Users\rizbr\Desktop\코딩\beta.py", line 212, in login_to_spath
+    if "smartid.ssu.ac.kr" in driver.current_url or "login.do" in driver.current_url:
+                              ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rizbr\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 556, in current_url
+    return self.execute(Command.GET_CURRENT_URL)["value"]
+           ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\rizbr\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\remote\webdriver.py", line 446, in execute
+    self.error_handler.check_response(response)
+    ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\rizbr\AppData\Local\Programs\Python\Python314\Lib\site-packages\selenium\webdriver\remote\errorhandler.py", line 232, in check_response
+    raise exception_class(message, screen, stacktrace)
+selenium.common.exceptions.InvalidSessionIdException: Message: invalid session id; For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#invalidsessionidexception
+Stacktrace:
+	chromedriver!GetHandleVerifier [0xfab593+105d3]
+	chromedriver!GetHandleVerifier [0xfab6c4+10704]
+	chromedriver!(No symbol) [0xdb1cde]
+	chromedriver!(No symbol) [0xdefb77]
+	chromedriver!(No symbol) [0xe1d636]
+	chromedriver!(No symbol) [0xe18861]
+	chromedriver!(No symbol) [0xe18241]
+	chromedriver!(No symbol) [0xd8502e]
+	chromedriver!(No symbol) [0xd855ce]
+	chromedriver!(No symbol) [0xd85aad]
+	chromedriver!GetHandleVerifier [0x1233014+298054]
+	chromedriver!GetHandleVerifier [0x122e603+293643]
+	chromedriver!GetHandleVerifier [0x124ea05+2b3a45]
+	chromedriver!GetHandleVerifier [0xfc54e8+2a528]
+	chromedriver!GetHandleVerifier [0xfccd1d+31d5d]
+	chromedriver!(No symbol) [0xd84ba6]
+	chromedriver!(No symbol) [0xd841e0]
+	chromedriver!GetHandleVerifier [0x13987af+3fd7ef]
+	KERNEL32!BaseThreadInitThunk [0x75155d49+19]
+	ntdll!RtlInitializeExceptionChain [0x7755d83b+6b]
+	ntdll!RtlGetAppContainerNamedObjectPath [0x7755d7c1+231]
+
+
+==================================================
